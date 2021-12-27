@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Control táctil",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
@@ -60,7 +68,8 @@
 			"Sprite15",
 			"Sprite16",
 			"Sprite17",
-			"Audio"
+			"Audio",
+			"ControlTáctil"
 		],
 		"subfolders": []
 	},

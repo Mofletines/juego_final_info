@@ -2,6 +2,16 @@
 	"name": "Hoja de eventos 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "puntos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 104800888083796
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -54,6 +64,15 @@
 							"behaviorType": "ArrastrarYSoltar",
 							"parameters": {
 								"state": "disabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 813277828936403,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
 							}
 						}
 					],
@@ -148,6 +167,15 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 523778667180391,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 681340140133789
@@ -240,6 +268,15 @@
 							"behaviorType": "ArrastrarYSoltar",
 							"parameters": {
 								"state": "disabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 309581189088245,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
 							}
 						}
 					],
@@ -334,6 +371,15 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 575696517445443,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 549679410227785
@@ -426,6 +472,15 @@
 							"behaviorType": "ArrastrarYSoltar",
 							"parameters": {
 								"state": "disabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 176158854330634,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
 							}
 						}
 					],
@@ -520,6 +575,15 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 235268313350717,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 434167135500068
@@ -613,6 +677,15 @@
 							"parameters": {
 								"state": "disabled"
 							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 410669606389283,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
+							}
 						}
 					],
 					"sid": 486503373941939
@@ -705,6 +778,15 @@
 							"behaviorType": "ArrastrarYSoltar",
 							"parameters": {
 								"state": "disabled"
+							}
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 546919050063023,
+							"parameters": {
+								"variable": "puntos",
+								"value": "1"
 							}
 						}
 					],
@@ -960,6 +1042,32 @@
 				}
 			],
 			"sid": 671029061418376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 980631710840785,
+					"parameters": {
+						"variable": "puntos",
+						"comparison": 0,
+						"value": "8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 607256249321825,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 365733825313443
 		}
 	],
 	"sid": 267103231526728

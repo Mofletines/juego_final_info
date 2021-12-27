@@ -1,5 +1,5 @@
 {
-	"name": "Escena 1",
+	"name": "Juego",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,22 +7,22 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "darkgreywallpaper22imagenesdefondogris",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Default",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 2,
+					"uid": 23,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 427,
-						"y": 240,
-						"width": 854,
-						"height": 480,
+						"x": 426,
+						"y": 239.227273,
+						"width": 877.2928071035321,
+						"height": 497.17285109171524,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

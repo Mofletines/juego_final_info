@@ -69,7 +69,8 @@
 			"Sprite16",
 			"Sprite17",
 			"Audio",
-			"ControlTáctil"
+			"ControlTáctil",
+			"darkgreywallpaper22imagenesdefondogris"
 		],
 		"subfolders": []
 	},
@@ -81,13 +82,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Menu",
+			"Juego"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},

@@ -23,6 +23,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
@@ -51,7 +59,8 @@
 			"Sprite14",
 			"Sprite15",
 			"Sprite16",
-			"Sprite17"
+			"Sprite17",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -79,7 +88,58 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "RAM.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 515207651054716
+				},
+				{
+					"name": "cpu.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 190777575062248
+				},
+				{
+					"name": "fuente de alimentación.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 847924925421952
+				},
+				{
+					"name": "ventilador.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 975302235523117
+				},
+				{
+					"name": "caja.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 919268934551693
+				},
+				{
+					"name": "disco duro.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 221186528371976
+				},
+				{
+					"name": "placa base.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 237284145477262
+				},
+				{
+					"name": "GRAFICA.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 741038374504356
+				},
+				{
+					"name": "click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 956290037252087
+				},
+				{
+					"name": "error.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 423130341940118
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

@@ -28,6 +28,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 471682002068069,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite2",
 							"sid": 188164445158885,
@@ -58,6 +69,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 196910114329506,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite2",
@@ -99,6 +121,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 419070327331441,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite4",
 							"sid": 595092225516032,
@@ -129,6 +162,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 496622610138741,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite4",
@@ -170,6 +214,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 938857819194627,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite6",
 							"sid": 216800975059026,
@@ -200,6 +255,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 337191880870129,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite6",
@@ -241,6 +307,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 592290501384107,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite8",
 							"sid": 719870797410435,
@@ -271,6 +348,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 652911068859462,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite8",
@@ -312,6 +400,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 464694336341052,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite10",
 							"sid": 568989983403886,
@@ -342,6 +441,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 476611720915912,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite10",
@@ -383,6 +493,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 965343403268379,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite12",
 							"sid": 556477743194778,
@@ -414,9 +535,20 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 770246461192991,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite12",
-							"sid": 816611319362934,
+							"sid": 667734875780541,
 							"parameters": {
 								"x": "566",
 								"y": "411"
@@ -454,6 +586,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 361953797351646,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite14",
 							"sid": 965840666235646,
@@ -484,6 +627,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 333290911033681,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite14",
@@ -525,6 +679,17 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 590852199876003,
+							"parameters": {
+								"audio-file": "click",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-position",
 							"objectClass": "Sprite16",
 							"sid": 742716558131933,
@@ -555,6 +720,17 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 552477441602898,
+							"parameters": {
+								"audio-file": "error",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-position",
 							"objectClass": "Sprite16",

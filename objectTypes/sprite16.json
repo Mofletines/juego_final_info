@@ -1,0 +1,63 @@
+{
+	"name": "Sprite16",
+	"plugin-id": "Sprite",
+	"sid": 327503088518034,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 945835914262584
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1508,
+						"height": 1821,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1611645,
+						"collisionPoly": {
+							"points": [
+								0.20424403183023873,
+								0.16913783635365184,
+								0.5,
+								0.07468423942888523,
+								0.873342175066313,
+								0.1043382756727073,
+								0.9562334217506632,
+								0.5,
+								0.9045092838196287,
+								0.9209225700164745,
+								0.5,
+								0.9313563975837452,
+								0.07957559681697612,
+								0.9335529928610653,
+								0.03249336870026525,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 400347097631024,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

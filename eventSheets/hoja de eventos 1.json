@@ -1049,7 +1049,7 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 980631710840785,
+					"sid": 854658312816259,
 					"parameters": {
 						"variable": "puntos",
 						"comparison": 0,
@@ -1061,13 +1061,85 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 607256249321825,
+					"sid": 908889607257876,
 					"parameters": {
-						"layout": "Menu"
+						"layout": "Final"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 965353024720467,
+					"parameters": {
+						"variable": "puntos",
+						"value": "1"
 					}
 				}
 			],
 			"sid": 365733825313443
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 189085495266839,
+					"parameters": {
+						"object": "atras"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 829170000619389,
+					"parameters": {
+						"layout": "Menu"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 941654377710135,
+					"parameters": {
+						"audio-file": "error",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 313600638395970
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 150789389063851,
+					"parameters": {
+						"variable": "puntos",
+						"comparison": 5,
+						"value": "9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 864688139185880
+				},
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 486571797014328
+				}
+			],
+			"sid": 126094993874950
 		}
 	],
 	"sid": 267103231526728

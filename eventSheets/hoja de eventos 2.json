@@ -1,5 +1,111 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 524389636778748,
+					"parameters": {
+						"object": "jugar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 691256205390328,
+					"parameters": {
+						"audio-file": "click",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 726444293331180,
+					"parameters": {
+						"layout": "Juego"
+					}
+				}
+			],
+			"sid": 810231010234712
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 555764177251798,
+					"parameters": {
+						"object": "Instrucciones"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 561790599474451,
+					"parameters": {
+						"audio-file": "click",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 706517764829108,
+					"parameters": {
+						"layout": "inst"
+					}
+				}
+			],
+			"sid": 676587814267262
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "ControlTáctil",
+					"sid": 574868511003339,
+					"parameters": {
+						"object": "atras"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 492818803243811,
+					"parameters": {
+						"audio-file": "error",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 789586223242668,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 861822101878411
+		}
+	],
 	"sid": 451447275003639
 }
